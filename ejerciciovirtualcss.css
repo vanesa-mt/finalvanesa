@@ -1,0 +1,17 @@
+.cabezera {
+background-color: rgb(23, 234, 234);
+text-align: center;
+}
+
+.izquierda {
+    background-color: rgb(65, 190, 148);
+    text-align: center;
+}
+.central {
+    background-color: rgb(18, 112, 171);
+    text-align: center;
+}
+.derecha {
+    background-color: rgb(47, 31, 146);
+    text-align: left;
+}

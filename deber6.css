@@ -1,0 +1,129 @@
+body{
+    background-image: url(poto.jpg);
+    background-repeat: no-repeat;
+        h1{
+            color: rgb(0, 225, 255);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 40;
+            text-align: center;
+
+
+        }
+        h2{
+            color: rgb(123, 255, 0);
+            font-family: sans-serif;
+            font-size: 40;
+            text-align: center;
+        }
+        p{
+            color:rgb(238, 255, 0); 
+            font-family:'Gill Sans';
+            font-size: x-large;
+            text-align: center;
+            }
+}
+.cabezera{
+    text-align: center;
+    font-size: xx-large;    
+    }
+    .contenedor{
+        display: flex;
+        align-content: center;
+    }
+    .uno{
+        flex: 1;
+        text-align: center;
+        font-size: x-large;
+        color: rgb(255, 255, 255);
+    }
+    .dos{
+        flex: 1;
+        text-align: center;
+        font-size: x-large;
+        
+    }
+    .txtinf{
+        text-align: center;
+        font-size: xx-large;
+        color: rgb(255, 255, 255);
+        background-color: darkblue;
+
+    }
+    .nombre{
+            flex: 1;
+            text-align: center;
+            background-color: cyan;
+            font-size: x-large;
+            color: rgb(255, 0, 191);
+    }
+    .galeria{
+        flex: 1;
+        align-content: center;
+
+    }
+    .button{ 
+        flex: 1;
+        color: rgb(255, 255, 255);
+        display: inline-block;
+        border-radius: 25px;
+        text-align: center;
+        font-size: xx-large;
+        padding: 25px 30px;
+        transition: background-color 2s ease-out;
+    }
+    .button2{ 
+        flex: 1;
+        color: rgb(255, 255, 255);
+        display: inline-block;
+        border-radius: 25px;
+        text-align: center;
+        font-size: xx-large;
+        padding: 25px 30px;
+        transition: background-color 2s ease-out;
+    }
+    .button:hover{ 
+        flex: 1;
+        color: blue;
+        display: inline-block;
+        background-color: rgb(225, 0, 255);
+        border-radius: 25px;
+        text-align: center;
+        font-size: xx-large;
+        padding: 25px 30px;
+        transition: background-color 1s ease-out;
+    }
+    .button2:hover{ 
+        flex: 1;
+        color: blue;
+        display: inline-block;
+        background-color: rgb(225, 0, 255);
+        border-radius: 25px;
+        text-align: center;
+        font-size: xx-large;
+        padding: 25px 30px;
+        transition: background-color 1s ease-out;
+    }
+    .imgbutton{
+        flex: 1; 
+        flex: auto;
+        height: 200px;
+        width: 250px;
+        display: inline-block;
+        border-radius: 25px;
+        align-items: center;
+        font-size: xx-large;
+        padding: 25px 30px;
+        transition: background-color 1s ease-out;
+    }
+    .imgbutton:hover{ 
+        flex: 1;
+        display: inline-block;
+        background-color: rgb(255, 251, 0);
+        border-radius: 25px;
+        align-items: center;
+        font-size: xx-large;
+        padding: 25px 30px;
+        transition: background-color 0.5s ease-out;
+        transform: scale(1.25);
+    }
+   
